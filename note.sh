@@ -1,4 +1,23 @@
-    1  tracepath amazon.com
+
+Ensure that your reserved kernel memory is sufficient to sustain a high rate of packet buffer allocations (the default value may be too small).
+
+Open (as root or with sudo) the /etc/sysctl.conf file with the editor of your choice.
+
+Add the vm.min_free_kbytes line to the file with the reserved kernel memory value (in kilobytes) for your instance type. As a rule of thumb, you should set this value to between 1-3% of available system memory, and adjust this value up or down to meet the needs of your application.
+
+vm.min_free_kbytes = 1048576
+
+sudo sysctl -p
+
+sudo sysctl -a 2>&1 | grep min_free_kbytes
+
+sudo reboot
+
+
+
+
+
+1  tracepath amazon.com
     2  tracepath amazon.com
     3  cat /sys/devices/system/clocksource/clocksource0/current_clocksource
     4  sudo sysctl -a 2>&1 | grep min_free_kbytes
