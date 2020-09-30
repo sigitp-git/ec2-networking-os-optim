@@ -14,9 +14,6 @@ sudo sysctl -a 2>&1 | grep min_free_kbytes
 sudo reboot
 
 
-
-
-
 1  tracepath amazon.com
     2  tracepath amazon.com
     3  cat /sys/devices/system/clocksource/clocksource0/current_clocksource
