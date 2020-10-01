@@ -142,7 +142,4 @@ set_mempolicy: Sets numa memory policy for process (default, preferred, interlea
 move_pages: move individual pages of a process to other node
 mbind: Sets memory policy (bind mode) for particular memory range or node.
 
-
-
-
 sh-4.2$
