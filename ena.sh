@@ -37,6 +37,10 @@ sigitp@host:~/Documents/ec2-networking-os-optim$ aws ec2 describe-instances --in
 ]
 
 
+
+
+
+
 sh-4.2$ ethtool -i eth0
 driver: ena
 version: 2.2.10g
