@@ -8,7 +8,6 @@ sudo sysctl -p
 sudo sysctl -a 2>&1 | grep min_free_kbytes
 sudo reboot
 
-
 1  tracepath amazon.com
     2  tracepath amazon.com
     3  cat /sys/devices/system/clocksource/clocksource0/current_clocksource
@@ -32,8 +31,6 @@ $numactl --interleave=all myapp
 
 Run process on cpus that are part of node 0 with memory allocated on node 0 and 1.
 $numactl --cpunodebind=0 --membind=0,1 myapp
-
-
 
 For example, Amazon instance x1.32xlarge has four numa nodes. Each with 32 vcpu and 480 MB of memory. Distance between nodes is the same due to mesh topology
 $ numactl --hardware
