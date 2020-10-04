@@ -1,5 +1,3 @@
-
-
 sh-4.2$ modinfo ena
 filename:       /lib/modules/4.14.193-149.317.amzn2.x86_64/kernel/drivers/amazon/net/ena/ena.ko
 version:        2.2.10g
@@ -35,11 +33,6 @@ sigitp@host:~/Documents/ec2-networking-os-optim$ aws ec2 describe-instances --in
 [
     true
 ]
-
-
-
-
-
 
 sh-4.2$ ethtool -i eth0
 driver: ena
