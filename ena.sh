@@ -27,8 +27,6 @@ parm:           num_io_queues:Sets number of RX/TX queues to allocate to device.
  (int)
 sh-4.2$
 
-
-
 sigitp@host:~/Documents/ec2-networking-os-optim$ aws ec2 describe-instances --instance-ids i-df234234234wkwkwkw --query "Reservations[].Instances[].EnaSupport"
 [
     true
