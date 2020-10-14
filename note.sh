@@ -1,4 +1,3 @@
-
 Ensure that your reserved kernel memory is sufficient to sustain a high rate of packet buffer allocations (the default value may be too small).
 Open (as root or with sudo) the /etc/sysctl.conf file with the editor of your choice.
 
