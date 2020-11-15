@@ -46,4 +46,3 @@ supports-priv-flags: no
 sh-4.2$
 
 aws ec2 modify-instance-attribute --instance-id instance_id --ena-support
-
