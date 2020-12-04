@@ -51,7 +51,6 @@ aws ec2 modify-instance-attribute --instance-id instance_id --ena-support
 Ubuntu-DKMS
 -----------
 note: Using DKMS voids the support agreement for your subscription. It should not be used for production deployments.
-
 sudo apt-get install -y build-essential dkms
 git clone https://github.com/amzn/amzn-drivers
 sudo mv amzn-drivers /usr/src/amzn-drivers-1.0.0
