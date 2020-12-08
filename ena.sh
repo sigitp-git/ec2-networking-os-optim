@@ -56,3 +56,5 @@ git clone https://github.com/amzn/amzn-drivers
 sudo mv amzn-drivers /usr/src/amzn-drivers-1.0.0
 sudo touch /usr/src/amzn-drivers-1.0.0/dkms.conf
 sudo vim /usr/src/amzn-drivers-1.0.0/dkms.conf
+
+> PACKAGE_NAME="ena"
