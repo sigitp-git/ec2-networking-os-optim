@@ -61,3 +61,4 @@ sudo vim /usr/src/amzn-drivers-1.0.0/dkms.conf
 > PACKAGE_VERSION="1.0.0"
 > CLEAN="make -C kernel/linux/ena clean"
 > MAKE="make -C kernel/linux/ena/ BUILD_KERNEL=${kernelver}"
+> BUILT_MODULE_NAME[0]="ena"
