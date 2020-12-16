@@ -63,3 +63,4 @@ sudo vim /usr/src/amzn-drivers-1.0.0/dkms.conf
 > MAKE="make -C kernel/linux/ena/ BUILD_KERNEL=${kernelver}"
 > BUILT_MODULE_NAME[0]="ena"
 > BUILT_MODULE_LOCATION="kernel/linux/ena"
+> DEST_MODULE_LOCATION[0]="/updates"
